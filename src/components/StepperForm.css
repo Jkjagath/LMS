@@ -1,0 +1,14 @@
+#formsdiv{
+    /* border: 1px solid #00000029; */
+    width: 50%;
+    /* margin-left: 25%; */
+    /* height: 40px; */
+    /* padding: 0px; */
+}
+
+div{
+    display: flex;
+   justify-items: center;
+
+}
+

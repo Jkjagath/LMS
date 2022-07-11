@@ -1,0 +1,135 @@
+import { Layout, Button, Dropdown } from "antd";
+import "./Mentor.css";
+import { Link ,Outlet} from "react-router-dom";
+import { AudioOutlined } from "@ant-design/icons";
+import { DownOutlined, UserOutlined } from "@ant-design/icons";
+import { Menu, message, Space, Tooltip } from "antd";
+import { Avatar, Image } from "antd";
+
+import { Divider } from "antd";
+import { useState } from 'react';
+import ResetPassword from "./ResetPassword";
+const { Header, Footer, Sider, Content } = Layout;
+
+const Mentor = () => {
+  // const handleButtonClick = (e) => {
+  //     message.info('Click on left button.');
+  //     console.log('click left button', e);
+  //   };
+
+  //   const handleMenuClick = (e) => {
+  //     message.info('Click on menu item.');
+  //     console.log('click', e);
+  //   };
+
+const [ShowResetPassowrd, setShowResetPassowrd] = useState(false)
+  const onClick = ({ key }) => {
+    if(key==="2"){
+    setShowResetPassowrd(true)
+    }
+    
+  }
+  const handleHideResetPassowrd=()=>{
+    setShowResetPassowrd(false)
+  }
+
+
+  const menu = (
+    <Menu
+    onClick={onClick}
+      items={[
+        {
+          label: "Profile",
+          key: "1",
+        },
+        {
+          label: "Change Password",
+          key: "2",
+
+        },
+        {
+          label: "Logout",
+          key: "3",
+        },
+      ]}
+    />
+  );
+
+  return (
+    <>
+      <Layout breakpoint="lg">
+        <Header style={{ height: 50 }} className="header bg-white">
+          <div id="logoutdiv" >
+            <Divider style={{ height: 30 }} type="vertical" />
+            <Avatar
+              src={<img src="./mentor/images (1).jpg" style={{ width: 32 }} />}
+            />
+            <Dropdown overlay={menu} trigger={['click']}>
+              <a onClick={(e) => e.preventDefault()}>
+                <Space>
+                  <a style={{color:"black"}}>Mr. DeadPool</a>
+                  <DownOutlined style={{color:"black"}} />
+                </Space>
+              </a>
+            </Dropdown>
+          </div>
+
+          <div id="technoimg">
+            <img className="img-fluid" src="./admin/logo1.jpg" alt="no Img" />
+          </div>
+
+          <div id="searchdiv">
+            <input
+              class="form-control me-2"
+              type="search"
+              placeholder="Search"
+              aria-label="Search"
+              style={{
+                backgroundColor: "#0000000A",
+              }}
+            />
+          </div>
+        </Header>
+      </Layout>
+      <Layout>
+        <Sider
+          className="site-layout-background"
+          width={80}
+          breakpoint="lg"
+          collapsedWidth="0"
+          style={{ height: 600, border: "none", marginTop: 1 }}
+        >
+          <div id="mentorbuttonsDiv">
+
+              
+            <Link to={"dashBoard"}>
+            <Button id="dashBoard">
+              <p style={{ marginTop: 37, marginLeft: -10, color: " #075575", fontSize:12 }}>
+                Dashboard
+              </p>
+            </Button>
+            </Link>
+
+
+
+            <Link to={"MentorBatch"}>
+            <Button id="mentorbatchimg">
+              <p style={{ marginTop: 37, marginLeft: -5, color: " #075575" }}>
+                Batch
+              </p>
+            </Button>
+            </Link>
+
+          </div>
+        </Sider>
+        <Layout style={{ padding: "0 24px 24px" }}></Layout>
+              <ResetPassword
+             ShowResetPassowrd={ShowResetPassowrd}
+             handleHideResetPassowrd={handleHideResetPassowrd} />
+      </Layout>
+      <Outlet/>
+    </>
+  );
+};
+
+export default Mentor;

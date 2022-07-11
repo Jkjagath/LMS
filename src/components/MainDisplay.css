@@ -1,0 +1,92 @@
+.site-layout-background {
+    background: #fff;
+  }
+
+  #technoimg{
+    height:45px;
+    width: 200px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    float: left;
+    margin-left: -20px;
+  }
+
+  #searchdiv{
+    height: 30px;
+    width: 600px;
+    margin-left: 300px;
+    margin-top: 5px;
+   }
+
+   #logoutdiv{
+    float: right;
+    margin-top: 6px;
+    display: flex;
+    align-items: center;
+    }
+
+  #logoutbutton{
+    color: #075575;
+    border-radius: 5px;
+    border: 1px solid #075575;
+    width: 90px;
+}
+
+#batchimg{
+    /* border: 1px solid black; */
+   border-radius: 5px;
+   border: none;
+    height: 65px;
+    width: 80%;
+    margin-left: 5px;
+    margin-top: 20px;
+    
+    background: url('/public/admin/group (1)@2x.jpg') no-repeat padding-box;
+    opacity:1;
+    background-position:7px;
+    background-position-y: 4px;
+    background-repeat: no-repeat;
+    background-size:40px;
+  }
+#mentorimg{
+  /* border: 1px solid black; */
+   border-radius: 5px;
+   border: none;
+    height: 65px;
+    width: 80%;
+    margin-left: 5px;
+    margin-top: 20px;
+    
+    background: url('/public/admin/team\ \(4\)@2x.jpg') no-repeat padding-box;
+    opacity:1;
+    background-position:7px;
+    background-position-y: 4px;
+    background-repeat: no-repeat;
+    background-size:40px;
+}
+#adduserimg{
+  /* border: 1px solid black; */
+   border-radius: 5px;
+   border: none;
+    height: 65px;
+    width: 80%;
+    margin-left: 5px;
+    margin-top: 20px;
+    
+    background: url('/public/admin/add-user\ \(2\)@2x.jpg') no-repeat padding-box;
+    opacity:1;
+    background-position:7px;
+    background-position-y: 4px;
+    background-repeat: no-repeat;
+    background-size:40px;
+}
+.site-layout-background{
+  border: 1px solid black;
+    height:653px;
+}
+
+#buttonsDiv{
+    width: 70px;
+    /* height: 572px; */
+}

@@ -1,0 +1,133 @@
+/* #components-layout-demo-top-side-2 .logo {
+    float: left;
+    width: 120px;
+    height: 31px;
+    margin: 16px 24px 16px 0;
+    background: rgba(185, 6, 6, 0.3);
+  }
+  
+  .ant-row-rtl #components-layout-demo-top-side-2 .logo {
+    float: right;
+    margin: 16px 0 16px 24px;
+  } */
+  
+  /* .site-layout-background {
+    background: #fff;
+    padding-top: 35px;
+  } */
+  #technoimg{
+    /* border: 1px solid black; */
+    height: 50px;
+    width: 200px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    float: left;
+    margin-left: -20px;
+  }
+  #batchimg{
+    border: 1px solid black;
+   border-radius: 5px;
+    height: 65px;
+    width: 80%;
+    margin-left: 5px;
+    margin-top: 20px;
+    
+    background: url('/public/admin/group (1)@2x.jpg') no-repeat padding-box;
+    opacity:1;
+    background-position:7px;
+    background-position-y: 4px;
+    background-repeat: no-repeat;
+    background-size:40px;
+  }
+#mentorimg{
+  border: 1px solid black;
+   border-radius: 5px;
+    height: 65px;
+    width: 80%;
+    margin-left: 5px;
+    margin-top: 20px;
+    
+    background: url('/public/admin/team\ \(4\)@2x.jpg') no-repeat padding-box;
+    opacity:1;
+    background-position:7px;
+    background-position-y: 4px;
+    background-repeat: no-repeat;
+    background-size:40px;
+}
+#adduserimg{
+  border: 1px solid black;
+   border-radius: 5px;
+    height: 65px;
+    width: 80%;
+    margin-left: 5px;
+    margin-top: 20px;
+    
+    background: url('/public/admin/add-user\ \(2\)@2x.jpg') no-repeat padding-box;
+    opacity:1;
+    background-position:7px;
+    background-position-y: 4px;
+    background-repeat: no-repeat;
+    background-size:40px;
+}
+
+
+
+/* 
+  .button:hover{
+
+    background-color: #075575;
+    color: white;
+  } */
+  #searchdiv{
+   /* border: 1px solid black; */
+   height: 30px;
+   width: 600px;
+   /* float: right; */
+   margin-left: 300px;
+   margin-top: 10px;
+  }
+  #searchdiv1{
+    /* border: 1px solid black; */
+    height: 30px;
+    width: 300px;
+    /* float: right; */
+    margin-left: 690px;
+    margin-top: 10px;
+   }
+  #logoutdiv{
+    /* border: 1px solid black; */
+    float: right;
+    margin-top: 6px;
+    /* margin-left: 700px; */
+    display: flex;
+    align-items: center;
+    /* justify-content: center; */
+    /* color: #075575; */
+
+  }
+#logoutbutton{
+    color: #075575;
+    border-radius: 5px;
+    border: 1px solid #075575;
+    width: 90px;
+}
+
+  logo{
+    border: 1px solid black;
+    overflow: auto;
+    box-shadow: 1px gray;
+  }
+  #batchListHeader{
+    /* border: 1px solid black; */
+    height: 50px;
+    width: 100%;
+    display: flex;
+    /* align-items: center; */
+    /* justify-content: center; */
+  }
+ #batchlist{
+  /* border: 1px solid black; */
+  height: 100px;
+  width: 100%;
+ }

@@ -1,0 +1,60 @@
+.site-layout-background {
+    background: #fff;
+    padding-top: 35px;
+    /* margin-left: 10px; */
+    
+  }
+
+#mainLayout{
+/* border: 1px solid black; */
+height: 500px;
+width: 90%;
+padding: 0;
+margin-left: 70px;
+/* margin-top: -300px; */
+}
+  #searchdiv1{
+    /* border: 1px solid black; */
+    height: 30px;
+    width: 300px;
+    /* float: right; */
+    margin-left: 690px;
+    margin-top: 10px;
+   }
+  #logoutdiv{
+    /* border: 1px solid black; */
+    float: right;
+    margin-top: 6px;
+    /* margin-left: 700px; */
+    display: flex;
+    align-items: center;
+    /* justify-content: center; */
+    /* color: #075575; */
+
+  }
+#logoutbutton{
+    color: #075575;
+    border-radius: 5px;
+    border: 1px solid #075575;
+    width: 90px;
+}
+
+  logo{
+    border: 1px solid black;
+    overflow: auto;
+    box-shadow: 1px gray;
+  }
+  #batchListHeader{
+    /* border: 1px solid black; */
+    margin-left: 10px;
+    height: 50px;
+    width: 100%;
+    display: flex;
+    /* align-items: center; */
+    /* justify-content: center; */
+  }
+ #batchlist{
+  /* border: 1px solid black; */
+  height: 100px;
+  width: 100%;
+ }

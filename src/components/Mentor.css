@@ -1,0 +1,56 @@
+#components-layout-demo-top-side-2 .logo {
+    float: left;
+    width: 120px;
+    height: 31px;
+    margin: 16px 24px 16px 0;
+    background: rgba(255, 255, 255, 0.3);
+  }
+  
+  .ant-row-rtl #components-layout-demo-top-side-2 .logo {
+    float: right;
+    margin: 16px 0 16px 24px;
+  }
+  
+  .site-layout-background {
+    background: #fff;
+  }
+  #logoutdiv{
+    height:30px
+  }
+  .header{
+    background-color: #fff;
+  }
+
+
+  #dashBoard{
+    /* border: 1px solid black; */
+    border: #fff;
+     border-radius: 5px;
+      height: 65px;
+      width: 90%;
+      margin-left: 5px;
+      margin-top: 20px;
+      
+      background: url('/public/mentor/dashboard\ \(3\)@2x.png') no-repeat padding-box;
+      opacity:1;
+      background-position:11px;
+      background-position-y: 4px;
+      background-repeat: no-repeat;
+      background-size:40px;
+  }
+
+  #mentorbatchimg{
+    border: #fff;
+   border-radius: 5px;
+    height: 65px;
+    width: 80%;
+    margin-left: 5px;
+    margin-top: 20px;
+    
+    background: url('/public/admin/group (1)@2x.jpg') no-repeat padding-box;
+    opacity:1;
+    background-position:7px;
+    background-position-y: 5px;
+    background-repeat: no-repeat;
+    background-size:40px;
+  }

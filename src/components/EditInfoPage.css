@@ -1,0 +1,14 @@
+#profileDiv{
+    /* border: 1px solid black; */
+    border-bottom: 2px solid black;
+    border-bottom-style: dashed;
+    width: 100%;
+    margin-left: 5%;
+    background-color: white;
+}
+#formheading{
+    margin-left: 15px;
+}
+/* .contentRow{
+    margin-left: 30px;
+} */
